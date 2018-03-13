@@ -14,10 +14,8 @@ def solve(a,b,e):
         x0 = x1
         x1 = g(x0)
         
-    lst = list()
-    lst.append(x1)
-    lst.append(func(x1))
-    return tuple(lst)
+    tp =x1,func(x1)
+    return tp
     
 a = float(input("a = "))
 b = float(input("b = "))
