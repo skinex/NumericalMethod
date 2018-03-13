@@ -1,5 +1,5 @@
 from math import *
-
+#PYTHONNN
 def func(x):
     return x - (sin(x) / 2) - 1
 
